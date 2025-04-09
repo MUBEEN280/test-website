@@ -1,0 +1,117 @@
+body{
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+body.bg-dark {
+  background-color: #000;
+  color: white;
+}
+
+body.bg-light {
+  background-color: #fff;
+  color: black;
+}
+.navbar{
+  background-color: #343a40; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+.navbar-brand:hover{
+  color: #ff6f61; 
+}
+.navbar-nav .nav-link{
+  color: #ddd; 
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.bg-dark .nav-link{
+  color: white !important;
+}
+.bg-light .nav-link{
+  color: black !important;
+}
+.navbar-nav .nav-link:hover{
+  color: #fff;
+  transform: scale(1.05); 
+}
+.navbar-nav .nav-link.active{
+  color: #ff6f61; 
+}
+.navbar-nav .nav-item:hover .nav-link{
+  color: #ff6f61; 
+}
+.navbar-toggler{
+  border: none; 
+  outline: none;
+  box-shadow: none; 
+}
+@media (max-width: 767px){
+.navbar-nav{
+  background-color: #343a40;
+  padding: 1rem 0;
+}
+.navbar-nav .nav-item{
+  text-align: center; 
+  width: 100%;
+}
+.navbar-nav .nav-link{
+    padding: 0.75rem 0;
+  }
+}
+/* slide  */
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* .slick-prev, .slick-next {
+  font-size: 24px;
+  color: #000;
+} */
+
+.slick-prev {
+  left: -30px;
+}
+.slick-prev, .slick-next {
+  font-size: 24px;
+  color: #000;
+ /* Add background if needed */
+  border-radius: 50%;       /* Round buttons */
+  padding: 10px;
+}
+
