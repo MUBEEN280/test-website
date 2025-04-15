@@ -8,7 +8,7 @@ function Home() {
       <h1>Aliii Mubeen</h1>
       <button className="btn btn-primary">Hello Mubeen</button>
     </div>
-  ); k
+  ); 
 }
 
 export default Home;
