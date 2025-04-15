@@ -5,8 +5,8 @@ import './App.css'; // Your custom styles if any
 function App() {
   return (
     <div className="container">
-      <h1>Hello, React!</h1>
-      <button className="btn btn-primary">Bootstrap Button</button>
+      <h1>Hello</h1>
+      <button className="btn btn-primary">Hello Mubeen</button>
     </div>
   );
 }
