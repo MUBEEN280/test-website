@@ -8,7 +8,7 @@ function App() {
       <h1>Ali</h1>
       <button className="btn btn-primary">Hello Mubeen</button>
     </div>
-  );
+  ); k
 }
 
 export default App;
