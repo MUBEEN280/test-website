@@ -34,6 +34,7 @@ const Contact = () => {
           </div>
         </div>
       </Slider>
+        <h5>Hello</h5>
     </div>
   );
 };
