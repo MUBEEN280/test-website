@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import './App.css'; // Your custom styles if any
 
-function App() {
+function Home() {
   return (
     <div className="container">
       <h1>Aliii</h1>
@@ -11,4 +11,4 @@ function App() {
   ); k
 }
 
-export default App;
+export default Home;
