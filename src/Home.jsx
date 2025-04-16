@@ -5,7 +5,7 @@ import './App.css'; // Your custom styles if any
 function Home() {
   return (
     <div className="container">
-      <h1>Aliii</h1>
+      <h1>Aliii Mubeen</h1>
       <button className="btn btn-primary">Hello Mubeen</button>
     </div>
   ); k
